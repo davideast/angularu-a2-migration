@@ -1,0 +1,12 @@
+button {
+  display: block;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background: #2c2c2c;
+  color: #fafafa;
+  display: inline-block;
+  margin: 5px;
+}

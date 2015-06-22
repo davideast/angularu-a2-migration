@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Angular 1.4</title>
+    <link rel="stylesheet" href="app.css" media="screen" charset="utf-8">
+  </head>
+  <body ng-app="boxes">
+
+    <div ng-controller="BoxCtrl as boxCtrl">
+
+      <!-- boxCtrl -->
+
+      <box-list boxes="boxCtrl.boxes">
+
+        <!-- boxListCtrl -->
+
+        <button ng-click="boxListCtrl.add()">Add</button>
+
+        <div class="box" ng-repeat="box in boxListCtrl.boxes">
+          {{ box.value }}
+        </div>
+
+      </box-list>
+
+    </div>
+
+  <script src="./js/rx.all.js"></script>
+  <script src="./js/angular.js"></script>
+  <script src="./app.js"></script>
+  </body>
+</html>

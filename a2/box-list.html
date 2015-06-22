@@ -1,0 +1,5 @@
+<button (click)="boxService.add()">Add</button>
+
+<div class="box" *ng-for="#box of boxes">
+  {{ box.value }}
+</div>
