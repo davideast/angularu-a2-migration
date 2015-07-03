@@ -2,6 +2,7 @@
 
 ### David East - [@_davideast](https://twitter.com/_davideast)
 ### Conference: [AngularU](http://angularu.com/ng)
+### Video: https://www.youtube.com/watch?v=KWz7IAm35UM
 
 More accurately named: How to use component-based directives in Angular 1 to make life much easier in Angular 2.
 
